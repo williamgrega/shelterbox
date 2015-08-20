@@ -1,0 +1,27 @@
+body {
+	background-color: #9CD0ED;
+	font-family: Arial, "Times New Roman", "DejaVu Serif", sans-serif;
+}
+header {
+	background-color: #EFF8F6;
+	height: 200px;
+	width: 95%;
+	border-bottom: 15px solid black;
+	border-left: 2px solid black;
+	margin: 0 auto;
+
+}
+.logo {
+	float: right;
+	width: 500px;
+	margin-right: -2px;
+}
+.title {
+	float: left;
+	height: 200px;
+	font-size: 344%;
+	margin-left: 41px;
+}
+.woman {
+	margin-left: 35px
+}
