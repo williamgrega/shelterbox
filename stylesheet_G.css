@@ -1,0 +1,19 @@
+body {
+	background-color: #9CD0ED;
+}
+
+h1 {
+	background-color: #EEF9F7;
+	font-size: 4em;
+	font-family: 'Ariel', sans-serif;
+	padding: 1em; 
+}
+
+img {
+	float: right;
+}
+
+p {
+	font-family: 'Ariel', sans-serif;
+}
+
