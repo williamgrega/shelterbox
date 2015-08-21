@@ -3,17 +3,34 @@ body {
 }
 
 h1 {
+	display: block;
 	background-color: #EEF9F7;
 	font-size: 4em;
 	font-family: 'Ariel', sans-serif;
-	padding: 1em; 
+	font-weight: bold;
 }
 
-img {
+.container {
+	font-family: 'Ariel', sans-serif;
+}
+.sblogo {
 	float: right;
-}
-
-p {
+	width: 33%;
+	margin-right: -2px;
+	border: 1px solid black;
 	font-family: 'Ariel', sans-serif;
 }
 
+.left {
+	border: 2px solid red;
+	float: left;
+	width:33%;
+	font-family: 'Ariel', sans-serif;
+}
+
+.right {
+	border: 2px solid yellow;
+	float: left;
+	width: 33%;
+	font-family: 'Ariel', sans-serif;
+}
