@@ -1,5 +1,13 @@
 body {
 	background-color: #9CD0ED;
+	font-family: 'Ariel', sans-serif;
+}
+
+.sblogo {
+	float: right;
+	width: 33%;
+	margin-right: -2px;
+	font-family: 'Ariel', sans-serif;
 }
 
 h1 {
@@ -13,26 +21,6 @@ h1 {
 	margin: 0px 2px 2px 2px;
 }
 
-.button {
-	display: inline-block;
-	height: auto;
-	width: 250px;
-	margin: 50px;
-	padding: 4px;
-	background: #3FC19F;
-	border:2px solid #01AC80;
-	border-radius: 50px;
-	font-size: 1.5em;
-	text-decoration: none;
-	text-align: center;
-	font-family: 'Ariel', sans-serif;
-	color: #EEF9F7;
-}
-
-iframe {
-	margin-left: 180px;
-}
-
 .main {
 	width: 900px;
 	font-family: 'Ariel', sans-serif;
@@ -43,7 +31,17 @@ iframe {
 	width: 400px;
 	margin: 3px auto;
 }
+.sidebar {
+	float: left;
+	width: 25%;
+}
 
+.container {
+	background-color: #EEF9F7;
+	width: 50%;
+	margin: 40px auto;
+	padding: 2em;
+	font-family: 'Ariel', sans-serif
 }
 
 .information {
@@ -59,17 +57,40 @@ iframe {
 	font-family: 'Ariel', sans-serif;
 }
 
-.section_2 {
-	clear: left;
+.button {
+	display: inline-block;
+	height: auto;
+	width: 250px;
+	margin: 50px;
+	padding: 4px;
+	background-color: rgba(255, 60, 0, 0.7);
+	border:2px solid rgb(178, 42, 0);
+	border-radius: 50px;
+	font-size: 1.5em;
+	text-decoration: none;
+	text-align: center;
 	font-family: 'Ariel', sans-serif;
-	margin-top: 400px; 
+	color: #EEF9F7;
 }
 
-.sblogo {
-	float: right;
-	width: 33%;
-	margin-right: -2px;
-	font-family: 'Ariel', sans-serif;
+.button:hover {
+	background-color: #631800;
 }
 
+iframe {
+	margin-left: 180px;
+}
 
+form {
+	width: 100%;
+	margin: 0 auto;
+}
+
+label{
+	width: 120px;
+	margin: 0 auto;
+}
+
+input[type="radio"] {
+	margin: 0;
+}
