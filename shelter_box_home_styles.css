@@ -12,16 +12,52 @@ header {
 	border-radius: 15px;
 
 }
+nav {
+	width: 800px;
+	clear: both;
+}
+li {
+	color: #8FDBC8;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 300%;
+	margin-right: 15px;
+}
+.donate_button {
+	position: absolute;
+	background-color: #DB170B;
+	top: 600px;
+	left: 900px;
+	width: 500px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 15px;
+	text-align: center;
+	padding: 25px 0px;
+}
+.donate_link {
+	font-size: 207%;
+	text-decoration: none;
+	color: white;
+	padding-bottom: 20px;
+}
+.donate_header {
+	margin: 0;
+	padding-top: 15px;
+}
 .logo {
 	float: right;
 	width: 500px;
 	margin-right: -2px;
+	margin-top: -44px;
 }
 .title {
 	float: left;
 	height: 200px;
 	font-size: 344%;
+	margin-top: -67px;
 	margin-left: 41px;
+	padding-bottom: 30px
 }
 .woman {
 	display: block;
@@ -30,9 +66,10 @@ header {
 	border-radius: 15px;
 }
 .info {
-	width:845px;
+	width:825px;
 	margin-top: 70px;
 	margin-left: 35px;
+	padding-left: 10px;
 	border: 2px solid black;
 	border-radius: 15px;
 	background-color: #D7D662;
@@ -48,17 +85,23 @@ header {
 	margin-left: 20%;
 }
 .a {
-	width: 400px;
-	margin-left: 20px;
-	margin-right: 10px;
-	display: inline-block;
+	padding-top: 28px;
+	width: 800px;
+	
 }
-.b {width: 400px;
-	margin-right: 10px;
-	display: inline-block;
-
+.volunteer {
+	float: left;
+	margin-right: 10px; 
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+.volunteer2 {
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
 }
 .supplies {
+	width: 500px;
 	display: inline-block;
 	margin-left: 20px;
 	margin-bottom: 5px;
@@ -69,8 +112,6 @@ header {
 	padding-top: 2px;
 	border-radius: 15px;
 }
-
-
 
 
 
