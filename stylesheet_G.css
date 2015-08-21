@@ -13,20 +13,56 @@ h1 {
 	margin: 0px 2px 2px 2px;
 }
 
-.section_2 {
-	clear: left;
+.button {
+	display: inline-block;
+	height: auto;
+	width: 250px;
+	margin: 50px;
+	padding: 4px;
+	background: #3FC19F;
+	border:2px solid #01AC80;
+	border-radius: 50px;
+	font-size: 1.5em;
+	text-decoration: none;
+	text-align: center;
 	font-family: 'Ariel', sans-serif;
-	border: 2px solid red;
-	margin-top: 40px; 
+	color: #EEF9F7;
+}
+
+iframe {
+	margin-left: 180px;
 }
 
 .main {
+	width: 900px;
 	font-family: 'Ariel', sans-serif;
-	margin: 0px 0px 2px 2px;
+	margin: 0px 0px 4px 2px;
 }
 
-.main iframe {
-	margin-left: 180px;
+.main a {
+	width: 400px;
+	margin: 3px auto;
+}
+
+}
+
+.information {
+	float: left;
+	width:50%;
+	margin:2px;
+	font-family: 'Ariel', sans-serif;
+}
+
+.billing {
+	float: left;
+	width: 50%;
+	font-family: 'Ariel', sans-serif;
+}
+
+.section_2 {
+	clear: left;
+	font-family: 'Ariel', sans-serif;
+	margin-top: 400px; 
 }
 
 .sblogo {
@@ -36,15 +72,4 @@ h1 {
 	font-family: 'Ariel', sans-serif;
 }
 
-.information {
-	float: left;
-	width:33%;
-	margin:2px;
-	font-family: 'Ariel', sans-serif;
-}
 
-.billing {
-	float: left;
-	width: 33%;
-	font-family: 'Ariel', sans-serif;
-}
