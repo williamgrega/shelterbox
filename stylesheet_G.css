@@ -5,13 +5,19 @@ body {
 h1 {
 	display: block;
 	background-color: #EEF9F7;
+	padding: 4px;
+	height: 85px;
 	font-size: 4em;
 	font-family: 'Ariel', sans-serif;
 	font-weight: bold;
+	border: 1px solid green;
+	margin: 0px 0px 2px 2px;
 }
 
 .container {
 	font-family: 'Ariel', sans-serif;
+	border: 1px solid blue;
+	margin: 0px 0px 2px 2px;
 }
 .sblogo {
 	float: right;
@@ -25,6 +31,7 @@ h1 {
 	border: 2px solid red;
 	float: left;
 	width:33%;
+	margin:2px;
 	font-family: 'Ariel', sans-serif;
 }
 
