@@ -9,6 +9,7 @@ header {
 	border-bottom: 15px solid black;
 	border-left: 2px solid black;
 	margin: 0 auto;
+	border-radius: 15px;
 
 }
 .logo {
@@ -23,5 +24,62 @@ header {
 	margin-left: 41px;
 }
 .woman {
-	margin-left: 35px
+	display: block;
+	margin-left: 35px;
+	margin-top: 20px;
+	border-radius: 15px;
 }
+.info {
+	width:845px;
+	margin-top: 70px;
+	margin-left: 35px;
+	border: 2px solid black;
+	border-radius: 15px;
+	background-color: #D7D662;
+	float: left;
+}
+.ourstory {
+	display: block;
+	line-height: 0%;
+	margin-top: -15px;
+	margin-bottom: 38px;
+	font-style: italic;
+	font-size: 600%;
+	margin-left: 20%;
+}
+.a {
+	width: 400px;
+	margin-left: 20px;
+	margin-right: 10px;
+	display: inline-block;
+}
+.b {width: 400px;
+	margin-right: 10px;
+	display: inline-block;
+
+}
+.supplies {
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+.supplies_image {
+	padding-top: 2px;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
