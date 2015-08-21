@@ -10,29 +10,33 @@ h1 {
 	font-size: 4em;
 	font-family: 'Ariel', sans-serif;
 	font-weight: bold;
-	border: 1px solid green;
-	margin: 0px 0px 2px 2px;
+	margin: 0px 2px 2px 2px;
+}
+
+.section_2 {
+	clear: left;
+	font-family: 'Ariel', sans-serif;
+	border: 2px solid red;
+	margin-top: 40px; 
 }
 
 .main {
 	font-family: 'Ariel', sans-serif;
-	border: 1px solid blue;
 	margin: 0px 0px 2px 2px;
 }
 
-.donate {
-	border: 2px solid black;
+.main iframe {
+	margin-left: 180px;
 }
+
 .sblogo {
 	float: right;
 	width: 33%;
 	margin-right: -2px;
-	border: 1px solid black;
 	font-family: 'Ariel', sans-serif;
 }
 
 .information {
-	border: 2px solid red;
 	float: left;
 	width:33%;
 	margin:2px;
@@ -40,7 +44,6 @@ h1 {
 }
 
 .billing {
-	border: 2px solid yellow;
 	float: left;
 	width: 33%;
 	font-family: 'Ariel', sans-serif;
