@@ -14,10 +14,14 @@ h1 {
 	margin: 0px 0px 2px 2px;
 }
 
-.container {
+.main {
 	font-family: 'Ariel', sans-serif;
 	border: 1px solid blue;
 	margin: 0px 0px 2px 2px;
+}
+
+.donate {
+	border: 2px solid black;
 }
 .sblogo {
 	float: right;
@@ -27,7 +31,7 @@ h1 {
 	font-family: 'Ariel', sans-serif;
 }
 
-.left {
+.information {
 	border: 2px solid red;
 	float: left;
 	width:33%;
@@ -35,7 +39,7 @@ h1 {
 	font-family: 'Ariel', sans-serif;
 }
 
-.right {
+.billing {
 	border: 2px solid yellow;
 	float: left;
 	width: 33%;
