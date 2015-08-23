@@ -38,7 +38,7 @@ h1 {
 
 .container {
 	background-color: #EEF9F7;
-	width: 50%;
+	width: 70%;
 	margin: 40px auto;
 	padding: 2em;
 	font-family: 'Ariel', sans-serif
@@ -73,8 +73,8 @@ h1 {
 	color: #EEF9F7;
 }
 
-.button:hover {
-	background-color: #631800;
+.dropdown {
+	font-size: 4em;
 }
 
 iframe {
@@ -93,4 +93,19 @@ label{
 
 input[type="radio"] {
 	margin: 0;
+}
+
+option {
+	font-family: 'Ariel', sans-serif;
+	font-size: 14px;
+}
+
+input[type=submit] {
+	font-size: 20px;
+	text-transform: capitalize;
+	width: 5em;
+	height: auto;
+	background-color: green;
+	border-radius: 50px;
+	color: white;
 }
