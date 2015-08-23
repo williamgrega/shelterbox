@@ -5,7 +5,7 @@ body {
 
 .sblogo {
 	float: right;
-	width: 33%;
+	width: 32%;
 	margin-right: -2px;
 	font-family: 'Ariel', sans-serif;
 }
@@ -45,10 +45,16 @@ nav a {
 	margin: 0px 0px 4px 2px;
 }
 
+.main p {
+	font-weight: bold;
+}
+
 .main a {
 	width: 400px;
-	margin: 3px auto;
+	margin: 15px;
+	height: auto;
 }
+
 .sidebar {
 	float: left;
 	width: 25%;
