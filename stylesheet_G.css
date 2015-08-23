@@ -10,15 +10,33 @@ body {
 	font-family: 'Ariel', sans-serif;
 }
 
+header {
+	background-color: #EEF9F7;
+}
+
 h1 {
 	display: block;
-	background-color: #EEF9F7;
-	padding: 4px;
 	height: 85px;
 	font-size: 4em;
 	font-family: 'Ariel', sans-serif;
 	font-weight: bold;
-	margin: 0px 2px 2px 2px;
+	margin: 0 0 0 0;
+}
+
+nav {
+	background-color:  #3FC19F; 
+	margin: 0 0 0 0; 
+	font-size: 25px;
+}
+
+nav a {
+	width: 100px;
+	font-family: 'Ariel', sans-serif;
+	text-decoration: none;
+	color: #EEF9F7;
+	margin: 2em;
+	margin-top: 0px;
+	padding: 1em;
 }
 
 .main {
@@ -93,4 +111,22 @@ label{
 
 input[type="radio"] {
 	margin: 0;
+}
+
+input[type="submit"] {
+	background-color:  #3FC19F; 
+	font-size: 18px;
+	font-family: 'Ariel', sans-serif;
+	margin-top: 1em;
+}
+
+button {
+	background-color:  #3FC19F; 
+	font-size: 18px;
+	font-family: 'Ariel', sans-serif;
+	margin-top: 1em;
+}
+
+select {
+	font-size: 20px;
 }
