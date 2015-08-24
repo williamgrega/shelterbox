@@ -1,64 +1,54 @@
 body {
 	background-color: #9CD0ED;
 	font-family: 'Ariel', sans-serif;
+	padding: 5px;
 }
 
 .sblogo {
 	float: right;
-<<<<<<< HEAD
 	width: 32%;
 	margin-right: -2px;
 	font-family: 'Ariel', sans-serif;
 }
 
 header {
+	display: block;
 	background-color: #EEF9F7;
-=======
-	width: 33%;
-	margin-right: -2px;
+	padding: 0px;
+	margin: 2px;
+}
+
+nav {
+	padding: 2px;
+	margin: 0px;
+	background-color: #3FC19F;
 	font-family: 'Ariel', sans-serif;
->>>>>>> Adjusted div spacing
+	font-size: 20px;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	color: #EEF9F7;
+	margin: 10px;
+	width: 200px;
 }
 
 h1 {
-	display: block;
-<<<<<<< HEAD
-=======
-	background-color: #EEF9F7;
 	padding: 4px;
->>>>>>> Adjusted div spacing
+	padding-bottom: 0px;
 	height: 85px;
 	font-size: 4em;
 	font-family: 'Ariel', sans-serif;
 	font-weight: bold;
-<<<<<<< HEAD
-	margin: 0 0 0 0;
-}
-
-nav {
-	background-color:  #3FC19F; 
-	margin: 0 0 0 0; 
-	font-size: 25px;
-}
-
-nav a {
-	width: 100px;
-	font-family: 'Ariel', sans-serif;
-	text-decoration: none;
-	color: #EEF9F7;
-	margin: 2em;
-	margin-top: 0px;
-	padding: 1em;
+	margin: 0px 2px 0px 2px;
 }
 
 .main {
 	width: 900px;
 	font-family: 'Ariel', sans-serif;
 	margin: 0px 0px 4px 2px;
-}
-
-.main p {
-	font-weight: bold;
 }
 
 .main a {
@@ -67,36 +57,8 @@ nav a {
 	height: auto;
 }
 
-.sidebar {
-	float: left;
-	width: 25%;
-}
-
-.container {
-	background-color: #EEF9F7;
-	width: 50%;
-	margin: 40px auto;
-	padding: 2em;
-	font-family: 'Ariel', sans-serif
-}
-
-=======
-	margin: 0px 2px 2px 2px;
-}
-
-.main {
-	width: 900px;
-	font-family: 'Ariel', sans-serif;
-	margin: 0px 0px 4px 2px;
-}
-
-.main a {
-	width: 400px;
-	margin: 3px auto;
-}
-.sidebar {
-	float: left;
-	width: 25%;
+.main p {
+	font-weight: bold;
 }
 
 .container {
@@ -107,7 +69,6 @@ nav a {
 	font-family: 'Ariel', sans-serif
 }
 
->>>>>>> Adjusted div spacing
 .information {
 	float: left;
 	width:50%;
@@ -118,8 +79,6 @@ nav a {
 .billing {
 	float: left;
 	width: 50%;
-<<<<<<< HEAD
-=======
 	font-family: 'Ariel', sans-serif;
 }
 
@@ -142,6 +101,9 @@ nav a {
 .dropdown {
 	font-size: 4em;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> donations
 }
 
 iframe {
@@ -163,7 +125,6 @@ input[type="radio"] {
 }
 
 option {
->>>>>>> Adjusted div spacing
 	font-family: 'Ariel', sans-serif;
 	font-size: 14px;
 }
@@ -171,8 +132,10 @@ option {
 input[type=submit] {
 	font-size: 20px;
 	text-transform: capitalize;
+	margin-top: 15px;
 	width: 5em;
 	height: auto;
+<<<<<<< HEAD
 	background-color: green;
 	border-radius: 50px;
 	color: white;
@@ -252,3 +215,13 @@ input[type=submit] {
 	color: white;
 }
 >>>>>>> d93c495d6bb63b57044d2155aa450d71ea4584c2
+=======
+	background-color: #3FC19F;
+	border-radius: 50px;
+	color: white;
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8e183972e9e363cb971d6c77edcbd78f9d1f068c
+>>>>>>> donations
