@@ -1,24 +1,48 @@
 body {
 	background-color: #9CD0ED;
 	font-family: 'Ariel', sans-serif;
+	padding: 5px;
 }
 
 .sblogo {
 	float: right;
-	width: 33%;
+	width: 32%;
 	margin-right: -2px;
 	font-family: 'Ariel', sans-serif;
 }
 
-h1 {
+header {
 	display: block;
 	background-color: #EEF9F7;
+	padding: 0px;
+	margin: 2px;
+}
+
+nav {
+	padding: 2px;
+	margin: 0px;
+	background-color: #3FC19F;
+	font-family: 'Ariel', sans-serif;
+	font-size: 20px;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	color: #EEF9F7;
+	margin: 10px;
+	width: 200px;
+}
+
+h1 {
 	padding: 4px;
+	padding-bottom: 0px;
 	height: 85px;
 	font-size: 4em;
 	font-family: 'Ariel', sans-serif;
 	font-weight: bold;
-	margin: 0px 2px 2px 2px;
+	margin: 0px 2px 0px 2px;
 }
 
 .main {
@@ -29,16 +53,17 @@ h1 {
 
 .main a {
 	width: 400px;
-	margin: 3px auto;
+	margin: 15px;
+	height: auto;
 }
-.sidebar {
-	float: left;
-	width: 25%;
+
+.main p {
+	font-weight: bold;
 }
 
 .container {
 	background-color: #EEF9F7;
-	width: 50%;
+	width: 70%;
 	margin: 40px auto;
 	padding: 2em;
 	font-family: 'Ariel', sans-serif
@@ -73,8 +98,12 @@ h1 {
 	color: #EEF9F7;
 }
 
-.button:hover {
-	background-color: #631800;
+.dropdown {
+	font-size: 4em;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> donations
 }
 
 iframe {
@@ -94,3 +123,105 @@ label{
 input[type="radio"] {
 	margin: 0;
 }
+
+option {
+	font-family: 'Ariel', sans-serif;
+	font-size: 14px;
+}
+
+input[type=submit] {
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-top: 15px;
+	width: 5em;
+	height: auto;
+<<<<<<< HEAD
+	background-color: green;
+	border-radius: 50px;
+	color: white;
+}
+
+.button {
+	display: inline-block;
+	height: auto;
+	width: 250px;
+	margin: 50px;
+	padding: 4px;
+	background-color: rgba(255, 60, 0, 0.7);
+	border:2px solid rgb(178, 42, 0);
+	border-radius: 50px;
+	font-size: 1.5em;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Ariel', sans-serif;
+	color: #EEF9F7;
+}
+
+.button:hover {
+	background-color: #631800;
+=======
+>>>>>>> d93c495d6bb63b57044d2155aa450d71ea4584c2
+}
+
+iframe {
+	margin-left: 180px;
+}
+
+form {
+	width: 100%;
+	margin: 0 auto;
+}
+
+label{
+	width: 120px;
+	margin: 0 auto;
+}
+
+input[type="radio"] {
+	margin: 0;
+}
+
+<<<<<<< HEAD
+input[type="submit"] {
+	background-color:  #3FC19F; 
+	font-size: 18px;
+	font-family: 'Ariel', sans-serif;
+	margin-top: 1em;
+}
+
+button {
+	background-color:  #3FC19F; 
+	font-size: 18px;
+	font-family: 'Ariel', sans-serif;
+	margin-top: 1em;
+}
+
+select {
+	font-size: 20px;
+}
+=======
+option {
+	font-family: 'Ariel', sans-serif;
+	font-size: 14px;
+}
+
+input[type=submit] {
+	font-size: 20px;
+	text-transform: capitalize;
+	width: 5em;
+	height: auto;
+	background-color: green;
+	border-radius: 50px;
+	color: white;
+}
+>>>>>>> d93c495d6bb63b57044d2155aa450d71ea4584c2
+=======
+	background-color: #3FC19F;
+	border-radius: 50px;
+	color: white;
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8e183972e9e363cb971d6c77edcbd78f9d1f068c
+>>>>>>> donations
