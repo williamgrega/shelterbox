@@ -5,6 +5,7 @@ body {
 
 .sblogo {
 	float: right;
+<<<<<<< HEAD
 	width: 32%;
 	margin-right: -2px;
 	font-family: 'Ariel', sans-serif;
@@ -12,14 +13,25 @@ body {
 
 header {
 	background-color: #EEF9F7;
+=======
+	width: 33%;
+	margin-right: -2px;
+	font-family: 'Ariel', sans-serif;
+>>>>>>> Adjusted div spacing
 }
 
 h1 {
 	display: block;
+<<<<<<< HEAD
+=======
+	background-color: #EEF9F7;
+	padding: 4px;
+>>>>>>> Adjusted div spacing
 	height: 85px;
 	font-size: 4em;
 	font-family: 'Ariel', sans-serif;
 	font-weight: bold;
+<<<<<<< HEAD
 	margin: 0 0 0 0;
 }
 
@@ -68,6 +80,34 @@ nav a {
 	font-family: 'Ariel', sans-serif
 }
 
+=======
+	margin: 0px 2px 2px 2px;
+}
+
+.main {
+	width: 900px;
+	font-family: 'Ariel', sans-serif;
+	margin: 0px 0px 4px 2px;
+}
+
+.main a {
+	width: 400px;
+	margin: 3px auto;
+}
+.sidebar {
+	float: left;
+	width: 25%;
+}
+
+.container {
+	background-color: #EEF9F7;
+	width: 70%;
+	margin: 40px auto;
+	padding: 2em;
+	font-family: 'Ariel', sans-serif
+}
+
+>>>>>>> Adjusted div spacing
 .information {
 	float: left;
 	width:50%;
@@ -78,7 +118,63 @@ nav a {
 .billing {
 	float: left;
 	width: 50%;
+<<<<<<< HEAD
+=======
 	font-family: 'Ariel', sans-serif;
+}
+
+.button {
+	display: inline-block;
+	height: auto;
+	width: 250px;
+	margin: 50px;
+	padding: 4px;
+	background-color: rgba(255, 60, 0, 0.7);
+	border:2px solid rgb(178, 42, 0);
+	border-radius: 50px;
+	font-size: 1.5em;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Ariel', sans-serif;
+	color: #EEF9F7;
+}
+
+.dropdown {
+	font-size: 4em;
+}
+
+iframe {
+	margin-left: 180px;
+}
+
+form {
+	width: 100%;
+	margin: 0 auto;
+}
+
+label{
+	width: 120px;
+	margin: 0 auto;
+}
+
+input[type="radio"] {
+	margin: 0;
+}
+
+option {
+>>>>>>> Adjusted div spacing
+	font-family: 'Ariel', sans-serif;
+	font-size: 14px;
+}
+
+input[type=submit] {
+	font-size: 20px;
+	text-transform: capitalize;
+	width: 5em;
+	height: auto;
+	background-color: green;
+	border-radius: 50px;
+	color: white;
 }
 
 .button {
