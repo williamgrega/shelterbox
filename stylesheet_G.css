@@ -141,6 +141,7 @@ nav a {
 
 .dropdown {
 	font-size: 4em;
+<<<<<<< HEAD
 }
 
 iframe {
@@ -195,6 +196,8 @@ input[type=submit] {
 
 .button:hover {
 	background-color: #631800;
+=======
+>>>>>>> d93c495d6bb63b57044d2155aa450d71ea4584c2
 }
 
 iframe {
@@ -215,6 +218,7 @@ input[type="radio"] {
 	margin: 0;
 }
 
+<<<<<<< HEAD
 input[type="submit"] {
 	background-color:  #3FC19F; 
 	font-size: 18px;
@@ -232,3 +236,19 @@ button {
 select {
 	font-size: 20px;
 }
+=======
+option {
+	font-family: 'Ariel', sans-serif;
+	font-size: 14px;
+}
+
+input[type=submit] {
+	font-size: 20px;
+	text-transform: capitalize;
+	width: 5em;
+	height: auto;
+	background-color: green;
+	border-radius: 50px;
+	color: white;
+}
+>>>>>>> d93c495d6bb63b57044d2155aa450d71ea4584c2
