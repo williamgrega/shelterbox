@@ -23,12 +23,9 @@ li {
 	font-size: 300%;
 	margin-right: 15px;
 }
-<<<<<<< HEAD
 li:hover {
 	color: #DB170B;
 }
-=======
->>>>>>> Adjusted div spacing
 .donate_button {
 	float: right;
 	background-color: #DB170B;
@@ -38,11 +35,7 @@ li:hover {
 	border-radius: 15px;
 	text-align: center;
 	padding: 25px 0px;
-<<<<<<< HEAD
 	margin-top: 40px;
-=======
-	margin-top: -250px;
->>>>>>> Adjusted div spacing
 	margin-right: 29px;
 }
 .donate_link {
@@ -58,10 +51,7 @@ li:hover {
 .logo {
 	float: right;
 	width: 400px;
-<<<<<<< HEAD
 	padding-top: -30px;
-=======
->>>>>>> Adjusted div spacing
 	margin-right: -2px;
 	margin-top: -44px;
 }
@@ -81,11 +71,7 @@ li:hover {
 }
 .info {
 	width:825px;
-<<<<<<< HEAD
 	height: 700px;
-=======
-	height: 800px;
->>>>>>> Adjusted div spacing
 	margin-top: 70px;
 	margin-left: 35px;
 	margin-bottom: 70px;
@@ -124,11 +110,7 @@ li:hover {
 	width: 400px;
 	display: inline-block;
 	margin-right: 29px;
-<<<<<<< HEAD
 	margin-top: -233px;
-=======
-	margin-top: -49px;
->>>>>>> Adjusted div spacing
 	margin-bottom: 5px;
 	border: 2px solid black;
 	border-radius: 15px;
@@ -139,7 +121,6 @@ li:hover {
 	border-radius: 15px;
 }
 .success {
-<<<<<<< HEAD
 	width: 835px;
 	height: 150px;
 	margin-top: 30px;
@@ -160,14 +141,6 @@ a {
 .success_title:hover {
 	color: white;
 }
-=======
-	width: 100%;
-	height: 50px;
-	background-color: #05BB8B;
-}
->>>>>>> Adjusted div spacing
-
-
 
 
 
